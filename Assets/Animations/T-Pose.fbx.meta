@@ -204,7 +204,32 @@ ModelImporter:
     13700002: Fitness_Grandma_BrowsAnimGeo
     13700004: Fitness_Grandma_EyesAnimGeo
     13700006: Fitness_Grandma_MouthAnimGeo
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FitGrandma_Brows_MAT1
+    second: {fileID: 2100000, guid: 98b432d3e345f4491996e6903bba54ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FitGrandma_Eyes_MAT1
+    second: {fileID: 2100000, guid: 98b432d3e345f4491996e6903bba54ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FitGrandma_Mouth_MAT1
+    second: {fileID: 2100000, guid: 98b432d3e345f4491996e6903bba54ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grandma_MAT
+    second: {fileID: 2100000, guid: f02d9c6f5f5044204965f563d2d93e7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lens_MAT
+    second: {fileID: 2100000, guid: e60675dd725b1401b99d8686299fb2e0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -246,12 +271,12 @@ ModelImporter:
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
-      loopBlendPositionY: 0
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
+      keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
-      heightFromFeet: 0
+      heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
