@@ -2062,7 +2062,6 @@ MonoBehaviour:
   vert: 0
   hori: 0
   rotationMultiplier: 50
-  run: 0
 --- !u!54 &1866552695
 Rigidbody:
   m_ObjectHideFlags: 0

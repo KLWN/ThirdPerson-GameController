@@ -9,16 +9,13 @@ public class InputControllerBT : MonoBehaviour
 {
     private static Animator Animator;
     private Rigidbody Rigidbody;
-
     private bool isRunning = false;
     public float vert;
     public float hori;
     public int rotationMultiplier = 100;
-    public bool run;
     private Vector3 EulerAngleVelocity;
     
-
-
+    
     private void Start()
     {
         Animator = GetComponent<Animator>();
@@ -47,14 +44,15 @@ public class InputControllerBT : MonoBehaviour
             isRunning = !isRunning;
         }
         
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Animator.SetTrigger("isJumping");
-        }
-        
         if (!isRunning)
         {
             vert *= 0.5f;
+        }
+        
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Animator.SetTrigger("isJumping");
         }
         
         
@@ -70,11 +68,7 @@ public class InputControllerBT : MonoBehaviour
         Quaternion deltaRotation = Quaternion.Euler(EulerAngleVelocity * Time.deltaTime);
         Rigidbody.MoveRotation(Rigidbody.rotation * deltaRotation);
         
-
-
     }
-
-    
     
     
 }
