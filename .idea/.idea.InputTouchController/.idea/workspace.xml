@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0deeec5-40bf-453d-9082-788fc23729f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InputTouchController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InputTouchController/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimControllerBT.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimControllerBT.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Anims_RootMotion/left turn.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Anims_RootMotion/left turn.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Anims_RootMotion/right turn.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Anims_RootMotion/right turn.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Idle.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +22,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="134">
+              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding>
-                <marker date="1559312158000" expanded="true" signature="6:111" ph="..." />
-                <marker date="1559312158000" expanded="true" signature="183:1323" ph="{...}" />
-                <marker date="1559312158000" expanded="true" signature="396:504" ph="{...}" />
-                <marker date="1559312158000" expanded="true" signature="541:1305" ph="{...}" />
-                <marker date="1559312158000" expanded="true" signature="703:759" ph="{...}" />
-                <marker date="1559312158000" expanded="true" signature="793:839" ph="{...}" />
-                <marker date="1559312158000" expanded="true" signature="1027:1166" ph="{...}" />
-                <marker date="1559312158000" expanded="true" signature="1221:1289" ph="{...}" />
+                <marker date="1559321530000" expanded="true" signature="6:111" ph="..." />
+                <marker date="1559321530000" expanded="true" signature="183:1773" ph="{...}" />
+                <marker date="1559321530000" expanded="true" signature="473:577" ph="{...}" />
+                <marker date="1559321530000" expanded="true" signature="613:1755" ph="{...}" />
+                <marker date="1559321530000" expanded="true" signature="732:798" ph="{...}" />
+                <marker date="1559321530000" expanded="true" signature="823:889" ph="{...}" />
+                <marker date="1559321530000" expanded="true" signature="948:1004" ph="{...}" />
+                <marker date="1559321530000" expanded="true" signature="1058:1124" ph="{...}" />
+                <marker date="1559321530000" expanded="true" signature="1157:1203" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -122,12 +127,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559303311852</updated>
-      <workItem from="1559303319184" duration="5309000" />
+      <workItem from="1559303319184" duration="8704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5309000" />
+    <option name="totallyTimeSpent" value="8704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,17 +208,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="134">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           <folding>
-            <marker date="1559312158000" expanded="true" signature="6:111" ph="..." />
-            <marker date="1559312158000" expanded="true" signature="183:1323" ph="{...}" />
-            <marker date="1559312158000" expanded="true" signature="396:504" ph="{...}" />
-            <marker date="1559312158000" expanded="true" signature="541:1305" ph="{...}" />
-            <marker date="1559312158000" expanded="true" signature="703:759" ph="{...}" />
-            <marker date="1559312158000" expanded="true" signature="793:839" ph="{...}" />
-            <marker date="1559312158000" expanded="true" signature="1027:1166" ph="{...}" />
-            <marker date="1559312158000" expanded="true" signature="1221:1289" ph="{...}" />
+            <marker date="1559321530000" expanded="true" signature="6:111" ph="..." />
+            <marker date="1559321530000" expanded="true" signature="183:1773" ph="{...}" />
+            <marker date="1559321530000" expanded="true" signature="473:577" ph="{...}" />
+            <marker date="1559321530000" expanded="true" signature="613:1755" ph="{...}" />
+            <marker date="1559321530000" expanded="true" signature="732:798" ph="{...}" />
+            <marker date="1559321530000" expanded="true" signature="823:889" ph="{...}" />
+            <marker date="1559321530000" expanded="true" signature="948:1004" ph="{...}" />
+            <marker date="1559321530000" expanded="true" signature="1058:1124" ph="{...}" />
+            <marker date="1559321530000" expanded="true" signature="1157:1203" ph="{...}" />
           </folding>
         </state>
       </provider>

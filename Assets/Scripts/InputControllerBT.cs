@@ -7,35 +7,50 @@ using UnityEngine;
 
 public class InputControllerBT : MonoBehaviour
 {
-    private static Animator m_Animator;
-    private Rigidbody m_Rigidbody;
+    private static Animator Animator;
+    private Rigidbody Rigidbody;
 
     private bool isRunning = false;
     public float vert;
     public float hori;
+    public int rotationMultiplier = 100;
     public bool run;
+    private Vector3 EulerAngleVelocity;
     
 
 
     private void Start()
     {
-        m_Animator = GetComponent<Animator>();
-        m_Rigidbody = GetComponent<Rigidbody>();
+        Animator = GetComponent<Animator>();
+        Rigidbody = GetComponent<Rigidbody>();
     }
-
     
     private void FixedUpdate()
     {
-
         vert = Input.GetAxis("Vertical");
         hori = Input.GetAxis("Horizontal");
-        run = Input.GetKeyDown(KeyCode.R);
+
+
+        if (hori <= 0.1)
+        {
+            Animator.SetBool("isIdle", true);
+        }
+
+        if (hori > 0.1)
+        {
+            Animator.SetBool("isIdle", true);
+        }
         
-        if (run)
+        
+        if (Input.GetKeyDown(KeyCode.R))
         {
             isRunning = !isRunning;
         }
-
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Animator.SetTrigger("isJumping");
+        }
         
         if (!isRunning)
         {
@@ -43,21 +58,19 @@ public class InputControllerBT : MonoBehaviour
         }
         
         
-        m_Animator.SetFloat("Forward", vert, 0.1f, Time.deltaTime);
-        m_Animator.SetFloat("Turn", hori * 3, 0.1f, Time.deltaTime);
-
-        if (Time.deltaTime > 0)
-        {
-            Vector3 velocity = m_Animator.deltaPosition / Time.deltaTime;
-            m_Rigidbody.velocity = velocity;
-        }
+        Animator.SetFloat("Forward", vert, 0.1f, Time.deltaTime);
+        Animator.SetFloat("Turn", hori * 2, 0.1f, Time.deltaTime);
+        
+        
+        Vector3 velocity = Animator.deltaPosition / Time.deltaTime;
+        Rigidbody.velocity = velocity;
+            
+            
+        EulerAngleVelocity = new Vector3(0, hori * rotationMultiplier, 0);
+        Quaternion deltaRotation = Quaternion.Euler(EulerAngleVelocity * Time.deltaTime);
+        Rigidbody.MoveRotation(Rigidbody.rotation * deltaRotation);
         
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            m_Animator.SetTrigger("isJumping");
-        }
-        
 
     }
 
