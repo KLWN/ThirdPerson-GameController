@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c0deeec5-40bf-453d-9082-788fc23729f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InputTouchController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InputTouchController/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimController.controller.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,18 +16,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputController.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            <state relative-caret-position="252">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
-                <marker date="1559306062000" expanded="true" signature="6:111" ph="..." />
-                <marker date="1559306062000" expanded="true" signature="181:1451" ph="{...}" />
-                <marker date="1559306062000" expanded="true" signature="535:588" ph="{...}" />
-                <marker date="1559306062000" expanded="true" signature="615:1449" ph="{...}" />
-                <marker date="1559306062000" expanded="true" signature="1102:1164" ph="{...}" />
-                <marker date="1559306062000" expanded="true" signature="1196:1304" ph="{...}" />
-                <marker date="1559306062000" expanded="true" signature="1317:1425" ph="{...}" />
+                <marker date="1559312158000" expanded="true" signature="6:111" ph="..." />
+                <marker date="1559312158000" expanded="true" signature="183:1323" ph="{...}" />
+                <marker date="1559312158000" expanded="true" signature="396:504" ph="{...}" />
+                <marker date="1559312158000" expanded="true" signature="541:1305" ph="{...}" />
+                <marker date="1559312158000" expanded="true" signature="703:759" ph="{...}" />
+                <marker date="1559312158000" expanded="true" signature="793:839" ph="{...}" />
+                <marker date="1559312158000" expanded="true" signature="1027:1166" ph="{...}" />
+                <marker date="1559312158000" expanded="true" signature="1221:1289" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -39,12 +40,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs" />
       </list>
     </option>
   </component>
@@ -119,12 +122,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559303311852</updated>
-      <workItem from="1559303319184" duration="1892000" />
+      <workItem from="1559303319184" duration="5309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1892000" />
+    <option name="totallyTimeSpent" value="5309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,8 +187,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        <state relative-caret-position="455">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding>
             <marker date="1559306062000" expanded="true" signature="6:111" ph="..." />
             <marker date="1559306062000" expanded="true" signature="181:1451" ph="{...}" />
@@ -194,6 +197,23 @@
             <marker date="1559306062000" expanded="true" signature="1102:1164" ph="{...}" />
             <marker date="1559306062000" expanded="true" signature="1196:1304" ph="{...}" />
             <marker date="1559306062000" expanded="true" signature="1317:1425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <marker date="1559312158000" expanded="true" signature="6:111" ph="..." />
+            <marker date="1559312158000" expanded="true" signature="183:1323" ph="{...}" />
+            <marker date="1559312158000" expanded="true" signature="396:504" ph="{...}" />
+            <marker date="1559312158000" expanded="true" signature="541:1305" ph="{...}" />
+            <marker date="1559312158000" expanded="true" signature="703:759" ph="{...}" />
+            <marker date="1559312158000" expanded="true" signature="793:839" ph="{...}" />
+            <marker date="1559312158000" expanded="true" signature="1027:1166" ph="{...}" />
+            <marker date="1559312158000" expanded="true" signature="1221:1289" ph="{...}" />
           </folding>
         </state>
       </provider>

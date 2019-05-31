@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="InputController.cs" t="Include" />
+          <e p="InputControllerBT.cs" t="Include" />
         </e>
       </e>
       <e p="InputTouchController.sln" t="IncludeFlat" />
