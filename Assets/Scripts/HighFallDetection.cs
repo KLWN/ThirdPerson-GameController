@@ -8,7 +8,7 @@ public class HighFallDetection : MonoBehaviour
     public static bool fallingHigh = false;
     public static bool aboutToLandFromHigh = false;
 
-    
+
     private void Update()
     {
         if (GroundDetection.grounded)
@@ -26,7 +26,6 @@ public class HighFallDetection : MonoBehaviour
             if (!aboutToLandFromHigh)
             {
                 aboutToLandFromHigh = true;
-                //Debug.Log("Grounded - from High Fall");
             }
         }
     }
@@ -36,7 +35,6 @@ public class HighFallDetection : MonoBehaviour
         if (!fallingHigh)
         {
             fallingHigh = true;
-            //Debug.Log("Grounded - from High Fall");
         }
     }
     

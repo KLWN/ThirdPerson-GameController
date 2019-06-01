@@ -85,10 +85,20 @@ public class InputController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             anim.SetTrigger("isJumping");
-            rb.velocity = new Vector3(0, jumpForce, 0);
-
         }
     }
 
+    
+    // Methods called über AnimationEvents:
+    public void StandingJumpEvent()
+    {
+        rb.velocity = new Vector3(0, jumpForce, 0);
+    }
+    
+    public void RunningJumpEvent()
+    {
+        rb.velocity = new Vector3(0, jumpForce, 0);
+    }
+    
 
 }
