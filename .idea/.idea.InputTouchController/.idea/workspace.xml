@@ -2,10 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0deeec5-40bf-453d-9082-788fc23729f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InputTouchController/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InputTouchController/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InputTouchController/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InputTouchController/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InputTouchController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InputTouchController/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimControllerBT.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimControllerBT.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Running_Jump.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Running_Jump.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimControllerBT.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimControllerBT.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimControllerBasic.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimControllerBasic.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Anims_RootMotion/Turn Right.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Anims_RootMotion/Turn Right.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Anims_RootMotion/Turn left.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Anims_RootMotion/Turn left.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Running.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Running.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Running_Jump.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Running_Jump.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbm/FitnessGrandma_FaceAnimMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbm/FitnessGrandma_FaceAnimMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbm/FitnessGrandma_diffuse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbm/FitnessGrandma_diffuse.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbm/FitnessGrandma_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbm/FitnessGrandma_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbm/FitnessGrandma_spec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbm/FitnessGrandma_spec.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/T-Pose.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Walking.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Walking.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/FitnessGrandma_FaceAnimMap.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/FitnessGrandma_FaceAnimMap.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/FitnessGrandma_diffuse.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/FitnessGrandma_diffuse.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Lens_MAT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Lens_MAT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/T-Pose.fbm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/T-Pose.fbm/FitnessGrandma_FaceAnimMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/T-Pose.fbm/FitnessGrandma_FaceAnimMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/T-Pose.fbm/FitnessGrandma_diffuse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/T-Pose.fbm/FitnessGrandma_diffuse.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/T-Pose.fbm/FitnessGrandma_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/T-Pose.fbm/FitnessGrandma_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/T-Pose.fbm/FitnessGrandma_spec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/T-Pose.fbm/FitnessGrandma_spec.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/FitnessGrandma_FaceAnimMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/FitnessGrandma_FaceAnimMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/FitnessGrandma_diffuse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/FitnessGrandma_diffuse.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/FitnessGrandma_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/FitnessGrandma_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/FitnessGrandma_spec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/FitnessGrandma_spec.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +80,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="253">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding>
-                <marker date="1559324197000" expanded="true" signature="6:111" ph="..." />
-                <marker date="1559324197000" expanded="true" signature="183:1755" ph="{...}" />
-                <marker date="1559324197000" expanded="true" signature="454:558" ph="{...}" />
-                <marker date="1559324197000" expanded="true" signature="594:1743" ph="{...}" />
-                <marker date="1559324197000" expanded="true" signature="713:779" ph="{...}" />
-                <marker date="1559324197000" expanded="true" signature="804:870" ph="{...}" />
-                <marker date="1559324197000" expanded="true" signature="929:985" ph="{...}" />
-                <marker date="1559324197000" expanded="true" signature="1018:1064" ph="{...}" />
-                <marker date="1559324197000" expanded="true" signature="1127:1193" ph="{...}" />
+                <marker date="1559421527000" expanded="true" signature="6:150" ph="..." />
+                <marker date="1559421527000" expanded="true" signature="222:2566" ph="{...}" />
+                <marker date="1559421527000" expanded="true" signature="980:1127" ph="{...}" />
+                <marker date="1559421527000" expanded="true" signature="1154:2562" ph="{...}" />
+                <marker date="1559421527000" expanded="true" signature="1421:1624" ph="{...}" />
+                <marker date="1559421527000" expanded="true" signature="1654:1862" ph="{...}" />
+                <marker date="1559421527000" expanded="true" signature="1891:2077" ph="{...}" />
+                <marker date="1559421527000" expanded="true" signature="2437:2556" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GroundDetection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+              <folding>
+                <marker date="1559420128000" expanded="true" signature="6:95" ph="..." />
+                <marker date="1559420128000" expanded="true" signature="143:742" ph="{...}" />
+                <marker date="1559420128000" expanded="true" signature="238:449" ph="{...}" />
+                <marker date="1559420128000" expanded="true" signature="286:442" ph="{...}" />
+                <marker date="1559420128000" expanded="true" signature="325:431" ph="{...}" />
+                <marker date="1559420128000" expanded="true" signature="499:727" ph="{...}" />
+                <marker date="1559420128000" expanded="true" signature="547:720" ph="{...}" />
+                <marker date="1559420128000" expanded="true" signature="585:709" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HighFallDetection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding>
+                <marker date="1559420639000" expanded="true" signature="6:92" ph="..." />
+                <marker date="1559420639000" expanded="true" signature="140:908" ph="{...}" />
+                <marker date="1559420639000" expanded="true" signature="270:414" ph="{...}" />
+                <marker date="1559420639000" expanded="true" signature="314:408" ph="{...}" />
+                <marker date="1559420639000" expanded="true" signature="464:704" ph="{...}" />
+                <marker date="1559420639000" expanded="true" signature="510:698" ph="{...}" />
+                <marker date="1559420639000" expanded="true" signature="558:688" ph="{...}" />
+                <marker date="1559420639000" expanded="true" signature="752:896" ph="{...}" />
+                <marker date="1559420639000" expanded="true" signature="784:890" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollisionInteraction.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="710">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <marker date="1559419048000" expanded="true" signature="6:92" ph="..." />
+                <marker date="1559419048000" expanded="true" signature="143:1190" ph="{...}" />
+                <marker date="1559419048000" expanded="true" signature="393:674" ph="{...}" />
+                <marker date="1559419048000" expanded="true" signature="421:538" ph="{...}" />
+                <marker date="1559419048000" expanded="true" signature="551:668" ph="{...}" />
+                <marker date="1559419048000" expanded="true" signature="728:860" ph="{...}" />
+                <marker date="1559419048000" expanded="true" signature="774:854" ph="{...}" />
+                <marker date="1559419048000" expanded="true" signature="908:1043" ph="{...}" />
+                <marker date="1559419048000" expanded="true" signature="954:1037" ph="{...}" />
+                <marker date="1559419048000" expanded="true" signature="1074:1112" ph="{...}" />
+                <marker date="1559419048000" expanded="true" signature="1141:1178" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -41,19 +165,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GroundDetection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HighFallDetection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerRM.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionInteraction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputControllerRM.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollisionInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GroundDetection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HighFallDetection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
     <option name="y" value="23" />
     <option name="width" value="1281" />
     <option name="height" value="777" />
@@ -115,11 +246,14 @@
       <updated>1559303311852</updated>
       <workItem from="1559303319184" duration="8748000" />
       <workItem from="1559322383657" duration="1259000" />
+      <workItem from="1559339671417" duration="496000" />
+      <workItem from="1559385256831" duration="12694000" />
+      <workItem from="1559413563787" duration="2715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10007000" />
+    <option name="totallyTimeSpent" value="25912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -131,7 +265,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1281" height="777" extended-state="6" />
+    <frame x="-1" y="23" width="1281" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24939467" />
@@ -177,36 +311,93 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerRM.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+        <state relative-caret-position="210">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
-            <marker date="1559306062000" expanded="true" signature="6:111" ph="..." />
-            <marker date="1559306062000" expanded="true" signature="181:1451" ph="{...}" />
-            <marker date="1559306062000" expanded="true" signature="535:588" ph="{...}" />
-            <marker date="1559306062000" expanded="true" signature="615:1449" ph="{...}" />
-            <marker date="1559306062000" expanded="true" signature="1102:1164" ph="{...}" />
-            <marker date="1559306062000" expanded="true" signature="1196:1304" ph="{...}" />
-            <marker date="1559306062000" expanded="true" signature="1317:1425" ph="{...}" />
+            <marker date="1559339772000" expanded="true" signature="6:111" ph="..." />
+            <marker date="1559339772000" expanded="true" signature="185:1758" ph="{...}" />
+            <marker date="1559339772000" expanded="true" signature="456:560" ph="{...}" />
+            <marker date="1559339772000" expanded="true" signature="596:1746" ph="{...}" />
+            <marker date="1559339772000" expanded="true" signature="715:781" ph="{...}" />
+            <marker date="1559339772000" expanded="true" signature="806:873" ph="{...}" />
+            <marker date="1559339772000" expanded="true" signature="932:988" ph="{...}" />
+            <marker date="1559339772000" expanded="true" signature="1021:1067" ph="{...}" />
+            <marker date="1559339772000" expanded="true" signature="1130:1196" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputControllerBT.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GroundDetection.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
           <folding>
-            <marker date="1559324197000" expanded="true" signature="6:111" ph="..." />
-            <marker date="1559324197000" expanded="true" signature="183:1755" ph="{...}" />
-            <marker date="1559324197000" expanded="true" signature="454:558" ph="{...}" />
-            <marker date="1559324197000" expanded="true" signature="594:1743" ph="{...}" />
-            <marker date="1559324197000" expanded="true" signature="713:779" ph="{...}" />
-            <marker date="1559324197000" expanded="true" signature="804:870" ph="{...}" />
-            <marker date="1559324197000" expanded="true" signature="929:985" ph="{...}" />
-            <marker date="1559324197000" expanded="true" signature="1018:1064" ph="{...}" />
-            <marker date="1559324197000" expanded="true" signature="1127:1193" ph="{...}" />
+            <marker date="1559420128000" expanded="true" signature="6:95" ph="..." />
+            <marker date="1559420128000" expanded="true" signature="143:742" ph="{...}" />
+            <marker date="1559420128000" expanded="true" signature="238:449" ph="{...}" />
+            <marker date="1559420128000" expanded="true" signature="286:442" ph="{...}" />
+            <marker date="1559420128000" expanded="true" signature="325:431" ph="{...}" />
+            <marker date="1559420128000" expanded="true" signature="499:727" ph="{...}" />
+            <marker date="1559420128000" expanded="true" signature="547:720" ph="{...}" />
+            <marker date="1559420128000" expanded="true" signature="585:709" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HighFallDetection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <marker date="1559420639000" expanded="true" signature="6:92" ph="..." />
+            <marker date="1559420639000" expanded="true" signature="140:908" ph="{...}" />
+            <marker date="1559420639000" expanded="true" signature="270:414" ph="{...}" />
+            <marker date="1559420639000" expanded="true" signature="314:408" ph="{...}" />
+            <marker date="1559420639000" expanded="true" signature="464:704" ph="{...}" />
+            <marker date="1559420639000" expanded="true" signature="510:698" ph="{...}" />
+            <marker date="1559420639000" expanded="true" signature="558:688" ph="{...}" />
+            <marker date="1559420639000" expanded="true" signature="752:896" ph="{...}" />
+            <marker date="1559420639000" expanded="true" signature="784:890" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollisionInteraction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <marker date="1559419048000" expanded="true" signature="6:92" ph="..." />
+            <marker date="1559419048000" expanded="true" signature="143:1190" ph="{...}" />
+            <marker date="1559419048000" expanded="true" signature="393:674" ph="{...}" />
+            <marker date="1559419048000" expanded="true" signature="421:538" ph="{...}" />
+            <marker date="1559419048000" expanded="true" signature="551:668" ph="{...}" />
+            <marker date="1559419048000" expanded="true" signature="728:860" ph="{...}" />
+            <marker date="1559419048000" expanded="true" signature="774:854" ph="{...}" />
+            <marker date="1559419048000" expanded="true" signature="908:1043" ph="{...}" />
+            <marker date="1559419048000" expanded="true" signature="954:1037" ph="{...}" />
+            <marker date="1559419048000" expanded="true" signature="1074:1112" ph="{...}" />
+            <marker date="1559419048000" expanded="true" signature="1141:1178" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <marker date="1559421527000" expanded="true" signature="6:150" ph="..." />
+            <marker date="1559421527000" expanded="true" signature="222:2566" ph="{...}" />
+            <marker date="1559421527000" expanded="true" signature="980:1127" ph="{...}" />
+            <marker date="1559421527000" expanded="true" signature="1154:2562" ph="{...}" />
+            <marker date="1559421527000" expanded="true" signature="1421:1624" ph="{...}" />
+            <marker date="1559421527000" expanded="true" signature="1654:1862" ph="{...}" />
+            <marker date="1559421527000" expanded="true" signature="1891:2077" ph="{...}" />
+            <marker date="1559421527000" expanded="true" signature="2437:2556" ph="{...}" />
           </folding>
         </state>
       </provider>

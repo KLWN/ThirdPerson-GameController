@@ -7,8 +7,11 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CollisionInteraction.cs" t="Include" />
+          <e p="GroundDetection.cs" t="Include" />
+          <e p="HighFallDetection.cs" t="Include" />
           <e p="InputController.cs" t="Include" />
-          <e p="InputControllerBT.cs" t="Include" />
+          <e p="InputControllerRM.cs" t="Include" />
         </e>
       </e>
       <e p="InputTouchController.sln" t="IncludeFlat" />
