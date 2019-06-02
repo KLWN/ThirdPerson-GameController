@@ -13,19 +13,13 @@ public class InputController : MonoBehaviour
     private Animator anim;
     private AnimatorClipInfo[] currentClipInfo;
     private Rigidbody rb;
-    public Collider groundCollider;
 
-    [Header("Aktuelles Movement:")] 
-    [Space(10)] 
+    [Header("Aktuelles Movement:")]
     [SerializeField] private float xzMovement;
     [SerializeField] private float yMovement;
     [SerializeField] private float rotation;
-    [SerializeField] private bool isGrounded;
-    [SerializeField] private bool isFallingHigh;
-    [SerializeField] private bool isAboutToLandFromHigh;
 
-    [Header("Movement Einstellungen:")] 
-    [Space(10)]
+    [Header("Movement Einstellungen:")]
     public float movementSpeed = 5.0f;
     public float rotationSpeed = 15.0f;
     public float jumpForce = 7.0f;
@@ -33,22 +27,16 @@ public class InputController : MonoBehaviour
     private float mult;
 
 
-    
     private void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
-        groundCollider = GetComponent<BoxCollider>();
     }
 
+    
     private void Update()
     {
-        isGrounded = GroundDetection.grounded;
-        isFallingHigh = HighFallDetection.fallingHigh;
-        isAboutToLandFromHigh = HighFallDetection.aboutToLandFromHigh;
         
-        Physics.gravity = new Vector3(0, -25, 0);
-
         if (xzMovement < 0)
         {
             mult = backwardsMultiplier;
@@ -73,7 +61,8 @@ public class InputController : MonoBehaviour
             anim.SetBool("isWalkingBackwards", false);
         }
         
-
+        
+        Physics.gravity = new Vector3(0, -25f, 0);
         transform.Translate(0, 0, xzMovement);
         transform.Rotate(0, rotation, 0);
         
